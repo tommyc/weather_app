@@ -22,4 +22,3 @@ module WeatherForecast
     forecast.humidity = body.dig("current", "relative_humidity_2m")
   end
 end
-
